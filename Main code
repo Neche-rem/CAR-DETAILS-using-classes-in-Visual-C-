@@ -1,0 +1,9 @@
+ private void button6_Click(object sender, EventArgs e)
+ {
+     car mycar = new car();
+     mycar.Make = "Toyoya";
+     mycar.Year = 2004;
+     mycar.Speed = 100.3m;
+     mycar.brake();
+     MessageBox.Show($"Car Details:\nYear: {mycar.Year}\nMake: {mycar.Make}\nSpeed: {mycar.Speed}");
+ }
